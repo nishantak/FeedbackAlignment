@@ -38,7 +38,7 @@ Error signals are propagated back through the transpose of forward weights, ensu
 
 <br>
 
-**2. Direct Feedback Alignment (DFA):**
+**2. Direct Feedback Alignment (DFA):** Based on [Lillicrap et al. (2016), Nøkland (2016)]
 
 Introduces biologically plausible credit assignment by bypassing symmetric weight transport.
 
