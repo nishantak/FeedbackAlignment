@@ -66,14 +66,15 @@ This breaks symmetry by giving random singal but is observed to still lead to le
 1. Backpropagation achieved higher and more stable accuracy, reflecting its exact gradient optimisation.
 
 
-2. DFA converged slower, taking slightly more epochs, and exhibited lower **but reasonably simiar** peak performance, consistent with the literature on feedback misalignment in small MLPs.
+2. DFA converged slower, taking slightly more epochs, and exhibited slightly lower **but reasonably similar** performance, consistent with the literature on feedback misalignment in small MLPs.
 
 
-3.  DFA remains feasible but is less data-efficient, aligning with prior claims that alignment improves with wider or deeper networks; **needs information-rich representations**.
+3.  DFA remains feasible but is less DATA-efficient, aligning with prior claims that alignment improves with wider or deeper networks (not complex); **needs information-rich, simple representations**.
 
-In resource-constrained or neuromorphic contexts, DFA could offer a path to on-chip learning without transpose-weight transport.
+4. In resource-constrained or neuromorphic contexts, DFA could offer on-chip learning without transpose-weight transport, leading to lesser and simpler computations.
 
 ---
+
 **Repository Structure:**
 
 1. `FF_DFA_learning.ipynb` – Core training and learning dynamics comparison
