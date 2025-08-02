@@ -2,7 +2,7 @@
 
 This repository accompanies our study, [Investigating the Application of Feedback Alignment to Medical AI]().
 
-This work explores biologically plausible alternatives to backpropagation (BP), specifically Direct Feedback Alignment (DFA), tested in the context of medical machine learning on the benchmark tabular medical data classification, Wisconsin Breast Cancer dataset.
+This work explores biologically plausible alternatives to backpropagation (BP), specifically Direct Feedback Alignment (DFA), tested in the context of medical machine learning on the benchmark tabular medical dataset for classification, Wisconsin Breast Cancer dataset.
 
 **Objectives:**
 
