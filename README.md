@@ -12,7 +12,7 @@ This work explores biologically plausible alternatives to backpropagation (BP), 
 2. Investigate generalisation / robustness, convergence behaviour, and accuracy.
 
 
-3. Explore learning dynamics and feature attribution of biologically inspired learning algorithms in medical AI.
+3. Explore learning dynamics and feature attribution of biologically plausible learning algorithms in medical AI.
 
 ---
 
