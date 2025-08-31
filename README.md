@@ -2,7 +2,7 @@
 
 This repository accompanies our study, [Investigating the Application of Feedback Alignment to Medical AI]().
 
-This work explores biologically plausible alternatives to backpropagation (BP), specifically Direct Feedback Alignment (DFA), tested in the context of medical machine learning on the benchmark tabular medical data classification, Wisconsin Breast Cancer dataset.
+This work explores biologically plausible alternatives to backpropagation (BP), specifically Direct Feedback Alignment (DFA), tested in the context of medical machine learning on the benchmark tabular medical dataset for classification, Wisconsin Breast Cancer dataset.
 
 **Objectives:**
 
@@ -12,7 +12,7 @@ This work explores biologically plausible alternatives to backpropagation (BP), 
 2. Investigate generalisation / robustness, convergence behaviour, and accuracy.
 
 
-3. Explore learning dynamics and feature attribution of biologically inspired learning algorithms in medical AI.
+3. Explore learning dynamics and feature attribution of biologically plausible learning algorithms in medical AI.
 
 ---
 
@@ -66,14 +66,15 @@ This breaks symmetry by giving random singal but is observed to still lead to le
 1. Backpropagation achieved higher and more stable accuracy, reflecting its exact gradient optimisation.
 
 
-2. DFA converged slower, taking slightly more epochs, and exhibited lower **but reasonably simiar** peak performance, consistent with the literature on feedback misalignment in small MLPs.
+2. DFA converged slower, taking slightly more epochs, and exhibited slightly lower **but reasonably similar** performance, consistent with the literature on feedback misalignment in small MLPs.
 
 
-3.  DFA remains feasible but is less data-efficient, aligning with prior claims that alignment improves with wider or deeper networks; **needs information-rich representations**.
+3.  DFA remains feasible but is less DATA-efficient, aligning with prior claims that alignment improves with wider or deeper networks (not complex); **needs information-rich, simple representations**.
 
-In resource-constrained or neuromorphic contexts, DFA could offer a path to on-chip learning without transpose-weight transport.
+4. In resource-constrained or neuromorphic contexts, DFA could offer on-chip learning without transpose-weight transport, leading to lesser and simpler computations.
 
 ---
+
 **Repository Structure:**
 
 1. `FF_DFA_learning.ipynb` – Core training and learning dynamics comparison
