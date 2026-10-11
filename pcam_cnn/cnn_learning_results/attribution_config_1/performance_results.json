@@ -1,0 +1,15 @@
+{
+  "n_images": 32768,
+  "class_0": 16391,
+  "class_1": 16377,
+  "bp_accuracy": 0.885528564453125,
+  "bp_macro_f1": 0.8854246141490909,
+  "bp_roc_auc": 0.9549570914093313,
+  "dfa_accuracy": 0.734893798828125,
+  "dfa_macro_f1": 0.7288831935767341,
+  "dfa_roc_auc": 0.8463456666877035,
+  "both_correct": 23020,
+  "bp_only_correct": 5997,
+  "dfa_only_correct": 1061,
+  "both_incorrect": 2690
+}
