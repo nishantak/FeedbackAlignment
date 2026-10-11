@@ -1,0 +1,9 @@
+{
+  "rule": "bp",
+  "seed": 42,
+  "run_id": "f90c8aeae0c13ce0",
+  "completed_epochs": 32,
+  "seconds": 33947.26721840026,
+  "peak_allocated_GiB": 3.090001106262207,
+  "peak_reserved_GiB": 3.373046875
+}

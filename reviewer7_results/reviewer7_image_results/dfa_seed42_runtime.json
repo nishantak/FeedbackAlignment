@@ -1,0 +1,32 @@
+{
+  "rule": "dfa",
+  "seed": 42,
+  "run_id": "7c293ca6ae90600a",
+  "completed_epochs": 48,
+  "seconds": null,
+  "resume_session_seconds": 17436.0560066,
+  "completed_epoch_train_val_seconds": 51545.84709119807,
+  "timing_note": "Total original wall time was not captured before interruption; epoch timing sums and continuation wall time are reported separately.",
+  "continuation": {
+    "checkpoint_epoch": 32,
+    "first_resumed_epoch": 33,
+    "previous_precision": "float16",
+    "resumed_precision": "bfloat16",
+    "reason": "Nonfinite FP16 loss during original epoch 33; overflow suspected but not proven.",
+    "restored": [
+      "model",
+      "optimizer",
+      "scheduler",
+      "scaler",
+      "feedback",
+      "python_rng",
+      "numpy_rng",
+      "torch_rng",
+      "cuda_rng",
+      "shuffle_generator"
+    ],
+    "partial_epoch_33_updates": "Discarded; replay starts from the end of saved epoch 32."
+  },
+  "peak_allocated_GiB": 3.0978145599365234,
+  "peak_reserved_GiB": 3.41015625
+}

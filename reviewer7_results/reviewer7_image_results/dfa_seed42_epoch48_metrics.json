@@ -1,0 +1,17 @@
+{
+  "rule": "dfa",
+  "seed": 42,
+  "epoch": 48,
+  "initial_state_sha256": "7a42d6bc38f4237fb19f083a33d17a72d3343d06ce8ba7bab04d4e3db22fcb6b",
+  "run_id": "7c293ca6ae90600a",
+  "accuracy": 0.764373779296875,
+  "macro_f1": 0.7633502489326516,
+  "roc_auc": 0.8506013999859564,
+  "average_precision": 0.8360645741132249,
+  "positive_precision": 0.8040179825793762,
+  "positive_recall": 0.6989070037247359,
+  "brier": 0.16103465241860898,
+  "ece_10": 0.055504655496406485,
+  "calibration_slope": 0.9362061035186857,
+  "calibration_intercept": 0.34736010568129866
+}

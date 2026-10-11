@@ -1,0 +1,17 @@
+{
+  "rule": "bp",
+  "seed": 42,
+  "epoch": 32,
+  "initial_state_sha256": "7a42d6bc38f4237fb19f083a33d17a72d3343d06ce8ba7bab04d4e3db22fcb6b",
+  "run_id": "f90c8aeae0c13ce0",
+  "accuracy": 0.8843994140625,
+  "macro_f1": 0.8841910264288664,
+  "roc_auc": 0.9547684296356628,
+  "average_precision": 0.9591547794319746,
+  "positive_precision": 0.9196053596426905,
+  "positive_recall": 0.8423398668864871,
+  "brier": 0.08810443746219891,
+  "ece_10": 0.04969520621773425,
+  "calibration_slope": 0.6592820621263433,
+  "calibration_intercept": 0.31892637606327695
+}

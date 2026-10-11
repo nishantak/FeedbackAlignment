@@ -1,0 +1,3 @@
+architecture,rule,epochs,seeds,batch_size,accuracy,macro_f1,roc_auc
+Archived ResNet-style CNN,bp,32,1,256,0.879,0.8786,0.9535
+Archived ResNet-style CNN,dfa,48,1,256,0.7131,0.7025,0.8341
